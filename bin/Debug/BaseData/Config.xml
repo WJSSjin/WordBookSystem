@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <BasePath>\BaseData</BasePath>
+  <WordPath>\BaseData\Library</WordPath>
+  <Theme>black</Theme>
+  <ViewSize>def</ViewSize>
+  <FootSize>def</FootSize>
+</config>

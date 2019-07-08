@@ -1,0 +1,39 @@
+﻿<Window x:Class="BookSystem.View.AddBook"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookSystem.View"
+        mc:Ignorable="d"
+        Title = "看书" Width="450" Height="350"  MinWidth="450" MinHeight="350" MaxWidth="450" MaxHeight="350">
+    <Grid Background="White">
+        <TextBlock 
+             Text="添加书籍" Margin="0,20,0,0" FontWeight="Bold" FontSize="16" TextAlignment="Center"
+             Width="Auto" Height="Auto" />
+
+        <Label Content="图书名字：" Margin="40,70,0,0" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="65"/>
+        <TextBox x:Name="bookName" Margin="105,70,0,0" 
+        TextWrapping="WrapWithOverflow" HorizontalAlignment="Left" Width="295" Height="28" VerticalAlignment="Top" />
+
+        <Label Content="封面地址：" Margin="40,120,0,0" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="65" />
+        <TextBox x:Name="bookImg"
+        TextWrapping="WrapWithOverflow" Margin="105,120,0,0" HorizontalAlignment="Left" Width="215" Height="28" VerticalAlignment="Top" />
+        <Button x:Name="btn_openBookImg" 
+        Content="选择图书封面" Margin="320,120,0,0" 
+        ToolTip="jpg和png格式" HorizontalAlignment="Left" Width="80" Height="28" VerticalAlignment="Top"/>
+
+        <Label Content="图书地址：" Margin="40,170,337,121" Width="215" Height="28"
+            ToolTip="word文档"/>
+        <TextBox  x:Name="bookPath" Margin="105,170,0,0"
+        TextWrapping="WrapWithOverflow" HorizontalAlignment="Left" Width="215" Height="28" VerticalAlignment="Top" />
+        <Button x:Name="btn_openBookPath"
+        Content="选择本地图书" Margin="320,170,0,0" HorizontalAlignment="Left" Width="80" Height="28" VerticalAlignment="Top" />
+
+        <Button 
+        x:Name="btn_submit"
+        Content="确定提交" Margin="105,221,0,0" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="90" />
+        <Button
+        x:Name="btn_reset"
+        Content="重新输入" Margin="310,221,0,0" HorizontalAlignment="Left" Width="90" Height="28" VerticalAlignment="Top" />
+    </Grid>
+</Window>

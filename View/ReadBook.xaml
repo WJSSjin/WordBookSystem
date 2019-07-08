@@ -1,0 +1,18 @@
+﻿<Window x:Class="BookSystem.View.ReadBook"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookSystem"
+        mc:Ignorable="d"
+        Title="看书" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/BookSystem;component/Assets/bg.png" />
+        </Grid.Background>
+        <Button x:Name="btn_Main" Content="我的书架" Margin="15,4,0,0" HorizontalAlignment="Left" Width="60" Height="20" VerticalAlignment="Top" BorderBrush="{x:Null}"/>
+        <Button x:Name="btn_Theme" Content="夜间模式" Margin="90,4,0,0" Width="60" Height="20" BorderBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <TextBlock x:Name="Book_Name"   TextWrapping="Wrap" Text="标题" Width="460" Margin="166,0" FontSize="24" FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="Book_Content" IsReadOnly="True" Text="正在打开图书......."   TextWrapping="Wrap"  Width="Auto" Height="384" TextAlignment="Left"  Background="{x:Null}" FontSize="18" Foreground="Black" Margin="10,35,10,0" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" VerticalAlignment="Top" Cursor="Hand" ForceCursor="True"/>
+    </Grid>
+</Window>

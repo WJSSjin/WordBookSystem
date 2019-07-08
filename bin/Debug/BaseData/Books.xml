@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<library>
+  <Book id="1">
+    <BookId>1</BookId>
+    <BookName>收费方式</BookName>
+    <BookPath>\BaseData\Library\普通高等学校国家助学金申请表（样表）.docx</BookPath>
+    <BookImg>\BaseData\Library\书旗小说.png</BookImg>
+    <BookCount>0</BookCount>
+    <BookHistory>0</BookHistory>
+    <BookDisplay>open</BookDisplay>
+  </Book>
+  <Book id="2">
+    <BookId>2</BookId>
+    <BookName>v郭德纲v</BookName>
+    <BookPath>\BaseData\Library\3、国家助学金班级评审情况表.doc</BookPath>
+    <BookImg>\BaseData\Library\fjwd.png</BookImg>
+    <BookCount>0</BookCount>
+    <BookHistory>0</BookHistory>
+    <BookDisplay>open</BookDisplay>
+  </Book>
+  <Book id="3">
+    <BookId>3</BookId>
+    <BookName>的方法得到</BookName>
+    <BookPath>\BaseData\Library\申请书.docx</BookPath>
+    <BookImg>\BaseData\Library\圣墟.png</BookImg>
+    <BookCount>0</BookCount>
+    <BookHistory>0</BookHistory>
+    <BookDisplay>open</BookDisplay>
+  </Book>
+</library>
